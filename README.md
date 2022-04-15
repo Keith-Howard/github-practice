@@ -21,7 +21,7 @@
                 border-radius: 5%;
             }
             h1 {
-                color: #060606;
+                disply: none;
             }
         </style>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
