@@ -37,7 +37,7 @@
                   <p>Email: Keithwhoward88@gmail.com</p>
           </footer>
   </div>
-  <script>
+  <!--<script>
           let landingGrid = document.getElementById('landingGrid');
           
           function getLandingPage() {
@@ -51,5 +51,5 @@
           landingGrid.innerHTML = '';
           landingGrid.appendChild(p);
           }
-  </script>
+  </script>-->
 </body>
