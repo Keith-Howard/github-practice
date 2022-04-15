@@ -32,7 +32,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home1</a>
                         <a id="projectsButton" class="nav-link" href="#">Projects</a>
                     </div>
                 </div>
@@ -48,14 +48,22 @@
             </footer>
         </div>
         <script language="javascript">
-            let titleToRemove = document.getElementsByTagName("h1");
-            titleToRemove[0].remove();
             let homeButton = document.getElementById("homeButton");
             let projectsButton = document.getElementById("projectsButton");
             let landingGrid = document.getElementById("landingPageGrid");
             
             homeButton.addEventListener("click", getLandingPage);
             projectsButton.addEventListener("click", getProjectsPage);
+            
+            function deleteDefaultTitle() {
+                let titlesToRemove = document.getElementsByTagName("h1");
+                for (let i = 0; i < titlesToRemove.length; i++) {
+                     let paragraphList = titlesToRemove[i].getElementsByTagName("p");
+                     if (paragraphList.length > 0) {
+                        titlesToRemove[i].remove();
+                     }
+                }
+            }
                 
             function getLandingPage() {
                 landingGrid.innerHTML = "<img src='githubpicture.jpeg'/><p>Keith is learning web development</p>";
