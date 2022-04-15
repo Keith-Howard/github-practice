@@ -20,9 +20,7 @@
                 background-color: ##e3f2fd; 
                 border-radius: 5%;
             }
-            h1 {
-                disply: none;
-            }
+           
         </style>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -32,7 +30,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home1</a>
                         <a id="projectsButton" class="nav-link" href="#">Projects</a>
                     </div>
                 </div>
@@ -59,7 +57,7 @@
                 let titlesToRemove = document.getElementsByTagName("h1");
                 for (let i = 0; i < titlesToRemove.length; i++) {
                      let anchorTagList = titlesToRemove[i].getElementsByTagName("a");
-                     if (anchorTagList.length > 0) {
+                     if (anchorTagList[i].origin === 'https://keith-howard.github.io') {
                         titlesToRemove[i].remove();
                      }
                 }
