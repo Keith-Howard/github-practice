@@ -33,6 +33,9 @@
           <p>Keith is learning web development</p>
   </div>
   <div id="contactInfo">
+          <footer>
+                  <p>Email: Keithwhoward88@gmail.com</p>
+          </footer>
   </div>
   <script>
           let landingGrid = document.getElementById('landingGrid');
