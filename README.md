@@ -7,7 +7,7 @@
                 grid-templat-rows: 1fr 1fr;
                 }
                 img {
-                border-radius: 25%;
+                border-radius: 40%;
                 }
         </style>
 </head>
