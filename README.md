@@ -27,4 +27,8 @@
                 </div>
             </div>
         </nav>
+        <div id="landingPageGrid">
+            <img src="githubpicture.jpeg"/>
+            <p>Keith is learning web development</p>
+        </div>
 </body>
