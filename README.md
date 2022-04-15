@@ -11,6 +11,21 @@
                 border-radius: 40%;
                 }
         </style>
+  <script language="javascript">
+          let landingGrid = document.getElementById("landingPageGrid");
+          
+          function getLandingPage() {
+                landingGrid.innerHTML = '<img src="githubpicture.jpeg"/>
+                                   <p>Keith is learning web development</p>';
+          }
+          
+          function getProjectsPage() {
+                let p = document.createElement('p');
+                p.innerHTML = 'Projects Page';
+                landingGrid.innerHTML = '';
+                landingGrid.appendChild(p);
+          }
+  </script>
 </head>
 <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -27,7 +42,7 @@
               </div>
             </div>
         </nav>
-  <div id="landingGrid">
+  <div id="landingPageGrid">
           <img src="githubpicture.jpeg"/>
           <p>Keith is learning web development</p>
   </div>
@@ -36,19 +51,4 @@
                   <p>Email: Keithwhoward88@gmail.com</p>
           </footer>
   </div>
-  <script>
-          let landingGrid = document.getElementById('landingGrid');
-          
-          function getLandingPage() {
-                landingGrid.innerHTML = '<img src="githubpicture.jpeg"/>
-                                   <p>Keith is learning web development</p>';
-          }
-          
-          function getProjectsPage() {
-                let p = document.createElement('p');
-                p.innerHTML = 'Projects Page';
-                landingGrid.innerHTML = '';
-                landingGrid.appendChild(p);
-          }
-  </script>
 </body>
