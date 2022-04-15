@@ -15,7 +15,6 @@ Go to Visual Studio Code and create a new index.html file in the new folder
                 <h1>Keith's Website</h1>
                 <img src="githubpicture.jpeg"/>
                 <a href="https://keith-howard.github.io/Real-Time-Bus-Tracker/">Bus Tracker</a>
-                
                 <p>Keith is learning web development</p>
         </html>
 Add any additional image files to the same folder as index if needed like in my HTML file
