@@ -5,7 +5,7 @@
                 #landingGrid {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                grid-templat-rows: 1fr ;
+                grid-templat-rows: 1fr 1fr;
                 }
                 img {
                 border-radius: 40%;
@@ -21,8 +21,8 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Hello</a>
-                  <a class="nav-link" href="#">Projects</a>
+                  <a id="homeButton" class="nav-link active" aria-current="page" href="#">Hello</a>
+                  <a id="projectsButton" class="nav-link" href="#">Projects</a>
                 </div>
               </div>
             </div>
@@ -37,8 +37,8 @@
           </footer>
   </div>
   <script language="javascript">
-          let homeButton = document.getElementsByClassName('nav-link active');
-          let projectsButton = document.getElementsByClassName('nav-link');
+          let homeButton = document.getElementById('homeButton');
+          let projectsButton = document.getElementById('projectsButton');
           let landingGrid = document.getElementById("landingPageGrid");
           
           homeButton.addEventListener("click", getLandingPage);
