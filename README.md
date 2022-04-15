@@ -1,5 +1,4 @@
-<head>
-        <title>Keith Howard's Portfolio</title>
+<body>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-      1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <style>
             #landingGrid {
@@ -11,8 +10,6 @@
                 border-radius: 40%;
             }
         </style>
-</head>
-<body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://github.com/Keith-Howard">Keith Howard</a>
@@ -21,7 +18,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home1</a>
+                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home</a>
                         <a id="projectsButton" class="nav-link" href="#">Projects</a>
                     </div>
                 </div>
