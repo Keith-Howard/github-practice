@@ -23,7 +23,7 @@
                 <div class="navbar-nav">
                   <!--<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                   <a class="nav-link" href="./projects.html">Projects</a>-->
-                  <button type= "button" class="navbar-btn" aria-current="page" onClick="getLandingPage()">Home</button>
+                  <button type= "button" class="navbar-btn" aria-current="page" onClick="getLandingPage()">Hello</button>
                   <button type= "button" class="navbar-btn" onClick="getProjectsPage()">Projects</button>
                 </div>
               </div>
