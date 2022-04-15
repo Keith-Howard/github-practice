@@ -21,14 +21,8 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <!--<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                  <a class="nav-link" href="./projects.html">Projects</a>
-                  <button type= "button" class="navbar-btn" aria-current="page" onClick="getLandingPage()">Hello</button>
-                  <button type= "button" class="navbar-btn" onClick="getProjectsPage()">Projects</button>
-                  <a class="nav-link active" aria-current="page" href="./index.html" role="button">Home</a>-->
-                  <input type="button" class="btn btn-info" value="Home" onclick="getLandingPage()">
-                  <input type="button" class="btn btn-info" value="Projects" onclick="getProjectsPage()">
-                  <!--<a class="nav-link" href="./projects.html">Projects</a>-->
+                  <a class="nav-link active" aria-current="page" href="#" onClick='getLandingPage()'>Home</a>
+                  <a class="nav-link" href="#" onClick='getProjectsPage()'>Projects</a>
                 </div>
               </div>
             </div>
