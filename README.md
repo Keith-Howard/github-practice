@@ -4,7 +4,7 @@
                 #landingGrid {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                grid-templat-rows: 1fr 1fr;
+                grid-templat-rows: 1fr;
                 }
                 img {
                 border-radius: 40%;
