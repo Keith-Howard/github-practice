@@ -12,6 +12,9 @@
                 width: 300px;
                 height: 300px;
             }
+            body {
+                background: cream;
+            }
         </style>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -21,7 +24,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home1</a>
                         <a id="projectsButton" class="nav-link" href="#">Projects</a>
                     </div>
                 </div>
