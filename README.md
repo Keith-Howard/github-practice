@@ -20,16 +20,23 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                  <a class="nav-link" href="./projects.html">Projects</a>
+                  <!--<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" href="./projects.html">Projects</a>-->
+                  <a class="nav-link active" aria-current="page" onClick="getLandingPage()">Home</a>
+                  <a class="nav-link" onClick="getProjectsPage()">Projects</a>
                 </div>
               </div>
             </div>
         </nav>
   <div id="landingGrid">
-        <img src="githubpicture.jpeg"/>
-        <p>Keith is learning web development</p>
   </div>
   <div id="contactInfo">
   </div>
+  <script>
+          let landingGrid = document.getElementById('landingGrid');
+          function getProjectPage() {
+          landingGrid.innerHTML = '<img src="githubpicture.jpeg"/>
+                                   <p>Keith is learning web development</p>'
+          }
+  </script>
 </body>
