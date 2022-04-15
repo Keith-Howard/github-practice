@@ -13,7 +13,7 @@
                 height: 300px;
             }
             body {
-                background: cream;
+                background: #EADBB7;
             }
         </style>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -24,7 +24,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home1</a>
+                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home</a>
                         <a id="projectsButton" class="nav-link" href="#">Projects</a>
                     </div>
                 </div>
