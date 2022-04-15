@@ -11,21 +11,6 @@
                 border-radius: 40%;
                 }
         </style>
-  <script language="javascript">
-          let landingGrid = document.getElementById("landingPageGrid");
-          
-          function getLandingPage() {
-                landingGrid.innerHTML = '<img src="githubpicture.jpeg"/>
-                                   <p>Keith is learning web development</p>';
-          }
-          
-          function getProjectsPage() {
-                let p = document.createElement('p');
-                p.innerHTML = 'Projects Page';
-                landingGrid.innerHTML = '';
-                landingGrid.appendChild(p);
-          }
-  </script>
 </head>
 <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -36,8 +21,8 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#" onClick='getLandingPage()'>Home</a>
-                  <a class="nav-link" href="#" onClick='getProjectsPage()'>Projects</a>
+                  <a class="nav-link active" aria-current="page" href="#">Hello</a>
+                  <a class="nav-link" href="#">Projects</a>
                 </div>
               </div>
             </div>
@@ -51,4 +36,24 @@
                   <p>Email: Keithwhoward88@gmail.com</p>
           </footer>
   </div>
+  <script language="javascript">
+          let homeButton = document.getElementsByClassName('nav-link active');
+          let projectsButton = document.getElementsByClassName('nav-link');
+          let landingGrid = document.getElementById("landingPageGrid");
+          
+          homeButton.addEventListener("click", getLandingPage);
+          projectsButton.addEventListener("click", getProjectsPage);
+          
+          function getLandingPage() {
+                landingGrid.innerHTML = '<img src="githubpicture.jpeg"/>
+                                   <p>Keith is learning web development</p>';
+          }
+          
+          function getProjectsPage() {
+                let p = document.createElement('p');
+                p.innerHTML = 'Projects Page';
+                landingGrid.innerHTML = '';
+                landingGrid.appendChild(p);
+          }
+  </script>
 </body>
