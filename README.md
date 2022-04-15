@@ -19,6 +19,7 @@
             .navbar {
                 background-color: ##e3f2fd; 
                 border-radius: 5%;
+                height: 100px;
             }
            
         </style>
