@@ -8,6 +8,8 @@
             }
             img {
                 border-radius: 40%;
+                width: 50px;
+                height: 50px;
             }
         </style>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
