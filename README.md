@@ -1,5 +1,12 @@
 <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-    1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <style>
+                #landingGrid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-templat-rows: 1fr 1fr;
+                }
+        </style>
 </head>
 <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -16,9 +23,10 @@
               </div>
             </div>
         </nav>
-  <div>
+  <div id="landingGrid">
         <img src="githubpicture.jpeg"/>
         <p>Keith is learning web development</p>
-        <a href="https://keith-howard.github.io/Real-Time-Bus-Tracker/">Bus Tracker</a>
+  </div>
+  <div id="contactInfo">
   </div>
 </body>
