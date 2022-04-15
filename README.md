@@ -45,7 +45,7 @@
                                    <p>Keith is learning web development</p>';
           }
           
-          getProjectsPage() {
+          function getProjectsPage() {
           let p = document.createElement('p');
           p.innerHTML = 'Projects Page';
           landingGrid.innerHTML = '';
