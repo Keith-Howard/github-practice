@@ -21,7 +21,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home1</a>
+                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home</a>
                         <a id="projectsButton" class="nav-link" href="#">Projects</a>
                     </div>
                 </div>
@@ -41,6 +41,7 @@
             let projectsButton = document.getElementById("projectsButton");
             let landingGrid = document.getElementById("landingPageGrid");
             
+            homeButton.addEventListener("click", getLandingPage);
             projectsButton.addEventListener("click", getProjectsPage);
                 
             function getLandingPage() {
