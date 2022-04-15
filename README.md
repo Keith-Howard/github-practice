@@ -46,7 +46,10 @@
           }
           
           getProjectsPage() {
-          landingGrid.innerHTML = '<p>Project Page</p>';
+          let p = document.createElement('p');
+          p.innerHTML = 'Projects Page';
+          landingGrid.innerHTML = '';
+          landingGrid.appendChild(p);
           }
   </script>
 </body>
