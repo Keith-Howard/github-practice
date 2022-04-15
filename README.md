@@ -36,4 +36,16 @@
                 <p>Email: Keithwhoward88@gmail.com</p>
             </footer>
         </div>
+        <script language="javascript">
+            function getLandingPage() {
+                landingGrid.innerHTML = "<img src='githubpicture.jpeg'/><p>Keith is learning web development</p>";
+            }
+            
+            function getProjectsPage() {
+                let p = document.createElement("p");
+                p.innerHTML = "Projects Page";
+                landingGrid.innerHTML = "";
+                landingGrid.appendChild(p);
+            }
+        </script>
 </body>
