@@ -22,9 +22,13 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <!--<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                  <a class="nav-link" href="./projects.html">Projects</a>-->
+                  <a class="nav-link" href="./projects.html">Projects</a>
                   <button type= "button" class="navbar-btn" aria-current="page" onClick="getLandingPage()">Hello</button>
                   <button type= "button" class="navbar-btn" onClick="getProjectsPage()">Projects</button>
+                  <a class="nav-link active" aria-current="page" href="./index.html" role="button">Home</a>-->
+                  <input type="button" class="btn btn-info" value="Home" onclick="getLandingPage()">
+                  <input type="button" class="btn btn-info" value="Projects" onclick="getProjectsPage()">
+                  <!--<a class="nav-link" href="./projects.html">Projects</a>-->
                 </div>
               </div>
             </div>
@@ -42,15 +46,15 @@
           let landingGrid = document.getElementById('landingGrid');
           
           function getLandingPage() {
-          landingGrid.innerHTML = '<img src="githubpicture.jpeg"/>
+                landingGrid.innerHTML = '<img src="githubpicture.jpeg"/>
                                    <p>Keith is learning web development</p>';
           }
           
           function getProjectsPage() {
-          let p = document.createElement('p');
-          p.innerHTML = 'Projects Page';
-          landingGrid.innerHTML = '';
-          landingGrid.appendChild(p);
+                let p = document.createElement('p');
+                p.innerHTML = 'Projects Page';
+                landingGrid.innerHTML = '';
+                landingGrid.appendChild(p);
           }
   </script>
 </body>
