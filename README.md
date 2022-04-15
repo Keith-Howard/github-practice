@@ -15,8 +15,16 @@
             body {
                 background: #EADBB7;
             }
+            
+            .navbar {
+                background-color: ##e3f2fd; 
+                border-radius: 5%;
+            }
+            title {
+                color: #060606;
+            }
         </style>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: ##e3f2fd; border-radius: 40%;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://github.com/Keith-Howard">Keith Howard</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-                    expanded="false" aria-label="Toggle navigation">
@@ -24,7 +32,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home1</a>
                         <a id="projectsButton" class="nav-link" href="#">Projects</a>
                     </div>
                 </div>
