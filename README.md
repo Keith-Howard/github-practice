@@ -29,14 +29,21 @@
             </div>
         </nav>
   <div id="landingGrid">
+          <img src="githubpicture.jpeg"/>
+          <p>Keith is learning web development</p>
   </div>
   <div id="contactInfo">
   </div>
   <script>
           let landingGrid = document.getElementById('landingGrid');
-          function getProjectPage() {
+          
+          function getLandingPage() {
           landingGrid.innerHTML = '<img src="githubpicture.jpeg"/>
-                                   <p>Keith is learning web development</p>'
+                                   <p>Keith is learning web development</p>';
+          }
+          
+          getProjectsPage() {
+          landingGrid.innerHTML = '<p>Project Page</p>';
           }
   </script>
 </body>
