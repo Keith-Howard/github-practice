@@ -6,6 +6,9 @@
                 grid-template-columns: 1fr 1fr;
                 grid-templat-rows: 1fr 1fr;
                 }
+                img {
+                border-radius: 25%;
+                }
         </style>
 </head>
 <body>
