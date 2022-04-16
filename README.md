@@ -1,25 +1,79 @@
-# keith-howard.github.io
-Creating a Github site
-Create an account on Github.com
-Go to settings and click your repositories
-Create a new repository by clicking green new button
-Title your repository (your username).github.io, make it public and click create repository
-Go to settings and click pages
-Go to where it says source and choose the appropriate branch and folder setting and save it
-    (By doing the (your username).github.io repository naming convention in step 4
-     and doing step 6 you to will now be able to host your HTML on the browser from Github)
-Create a folder on your computer for your website
-Go to Visual Studio Code and create a new index.html file in the new folder
-    The file should look something like this:
-        <html>
-                <h1>Keith's Website</h1>
-                <img src="githubpicture.jpeg"/>
-                <a href="https://keith-howard.github.io/Real-Time-Bus-Tracker/">Bus Tracker</a>
-                <p>Keith is learning web development</p>
-        </html>
-Add any additional image files to the same folder as index if needed like in my HTML file
-Go back to your repository and click the hyperlink "uploading an existing file"
-Drag your folder to where it says drag files to add them to your repository, or you can choose your files
-When all of your files or folders are added to your repository click the green commit changes button 
-If you want to just see your Github repository the URL will be github.com/<github username>/<repository name>
-If you want to see your HTML be hosted on the browser the URL will be (your username).github.io/index.html
+<body>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-      1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <style>
+            #landingGrid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                gap: 20px;
+            }
+            img {
+                border-radius: 40%;
+                width: 300px;
+                height: 300px;
+            }
+            body {
+                background: #EADBB7;
+            }
+            
+            .navbar {
+                background-color: ##e3f2fd; 
+                border-radius: 5%;
+                height: 100px;
+            }
+           
+        </style>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a id="homeButton" class="nav-link active" aria-current="page" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-                    expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a id="projectsButton" class="nav-link" href="#">Projects</a>
+                        <a class="navbar-brand" href="https://github.com/Keith-Howard"><img src="./GitHub-Emblem.png"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="landingPageGrid">
+            <img src="githubpicture.jpeg"/>
+            <p>Keith is learning web development</p>
+        </div>
+        <div id="contactInfo">
+            <footer>
+                <p>Email: Keithwhoward88@gmail.com</p>
+            </footer>
+        </div>
+        <script language="javascript">
+            let homeButton = document.getElementById("homeButton");
+            let projectsButton = document.getElementById("projectsButton");
+            let landingGrid = document.getElementById("landingPageGrid");
+            
+            homeButton.addEventListener("click", getLandingPage);
+            projectsButton.addEventListener("click", getProjectsPage);
+            
+            function deleteDefaultTitle() {
+                let titlesToRemove = document.getElementsByTagName("h1");
+                for (let i = 0; i < titlesToRemove.length; i++) {
+                     let anchorTagList = titlesToRemove[i].getElementsByTagName("a");
+                     if (anchorTagList[i].origin === 'https://keith-howard.github.io') {
+                        titlesToRemove[i].remove();
+                     }
+                }
+            }
+                
+            function getLandingPage() {
+                landingGrid.innerHTML = "<img src='githubpicture.jpeg'/><p>Keith is learning web development</p>";
+            }
+            
+            function getProjectsPage() {
+                let p = document.createElement("p");
+                p.innerHTML = "Projects Page";
+                landingGrid.innerHTML = "";
+                landingGrid.appendChild(p);
+            }
+            deleteDefaultTitle();
+        </script>
+</body>
