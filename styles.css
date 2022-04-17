@@ -1,12 +1,12 @@
 .container2 {
     position: absolute;
     top: 30%;
-    left: 10%;
+    /*left: 10%;*/
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap:25px;
-    justify-content: center;
+    justify-items: center;
 }
 .normalText {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
