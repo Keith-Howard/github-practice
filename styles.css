@@ -8,6 +8,10 @@
     gap:25px;
     justify-items: center;
 }
+.containerWrapper {
+    display: flex;
+    justify-content: center;
+}
 .normalText {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
