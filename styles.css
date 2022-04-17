@@ -7,6 +7,16 @@
     grid-template-rows: 1fr 1fr;
     gap:25px;
 }
+.container::after, .container::before{ display:none !important;}
+.container2 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:25px;
+}
 .normalText {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
