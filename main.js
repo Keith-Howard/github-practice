@@ -46,14 +46,17 @@ function getProjectsPage() {
     let projectsContainer = document.createElement('div');
     projectsContainer.setAttribute('class', 'container2');
     let projectsHeading = document.createElement('div');
+    let containerWrapper = document.createElement('div');
+    containerWrapper.setAttribute('class', 'containerWrapper');
     for (let i = 0; i < projects.length; i++) {
         htmlString = htmlString + projects[i];
     }
     projectsHeading.innerHTML = "<h1>Keith Howard's Projects</h1>";
     projectsContainer.innerHTML = htmlString;
+    containerWrapper.innerHTML = projectsContainer;
     landingPage.innerHTML = '';
     landingPage.appendChild(projectsHeading);
-    landingPage.appendChild(projectsContainer);
+    landingPage.appendChild(containerWrapper);
 }
 deleteDefaultTitle();
 getLandingPage()
