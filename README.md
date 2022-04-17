@@ -7,7 +7,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a id="homeButton" class="nav-link navButton" aria-current="page" href="#">Home</a>
+                <a id="homeButton" class="nav-link navButton" aria-current="page" href="#">Home1</a>
                 <a id="projectsButton" class="nav-link navButton" href="#">Projects</a>
                 <a id="githubButton" class="nav-link navButton" href="https://github.com/Keith-Howard" target="_blank" rel="noopener noreferrer"><img src="./GitHub-Emblem.png" id="githubImage"></a>
             </div>
