@@ -53,7 +53,7 @@ function getProjectsPage() {
     }
     projectsHeading.innerHTML = "<h1>Keith Howard's Projects</h1>";
     projectsContainer.innerHTML = htmlString;
-    containerWrapper.innerHTML = projectsContainer;
+    containerWrapper.appendChild(projectsContainer);
     landingPage.innerHTML = '';
     landingPage.appendChild(projectsHeading);
     landingPage.appendChild(containerWrapper);
