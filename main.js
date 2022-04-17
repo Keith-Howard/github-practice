@@ -41,7 +41,7 @@ function getLandingPage() {
 function getProjectsPage() {
     htmlString = ""
     let projectsContainer = document.createElement('div');
-    projectsContainer.setAttribute('class', 'container');
+    projectsContainer.setAttribute('class', 'container2');
     let projectsHeading = document.createElement('div');
     for (let i = 0; i < projects.length; i++) {
         htmlString = htmlString + projects[i];
