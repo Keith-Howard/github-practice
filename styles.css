@@ -32,6 +32,9 @@
     width: 500px;
     text-align: center;
 }
+.projectDescr {
+    height: 75px;
+}
 body {
     background: #EADBB7;
 }
