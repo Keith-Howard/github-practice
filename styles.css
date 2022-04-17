@@ -74,8 +74,9 @@ body {
 }
 h1 {
     position: absolute;
-    top: 18%;
-    left: 38%;
+    /*top: 18%;
+    left: 38%;*/
+    justify-content: center;
 }
 .linkButton {
     color: black;
