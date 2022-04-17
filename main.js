@@ -11,7 +11,7 @@ let landingPageString =
     <div class="container2">
         <div id="profilePic" class="item1"><img src="githubpicture.jpeg"/></div>
         <div class="item2"><p class="normalText bio">Currently I am a project specialist for an electrical manufacturing company. Specializing in data center
-            hardware. I have a bachelors degreed in Communications from Western Connecticut State University and an
+            hardware. I have a bachelors degree in Communications from Western Connecticut State University and an
             associates degree in Graphic Design from Pratt Institute. I am currently enrolled in MIT XPRO's Professional
             Certificate in Coding: Full Stack Development with MERN. This site is to preview work I have done while 
             I am enrolled. I am based out of Long Island NY.</p></div>
