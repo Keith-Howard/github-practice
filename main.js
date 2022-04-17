@@ -7,7 +7,7 @@ let projects = ['<div class="projectContainer"><div><img src="./projectPictures/
 
 let landingPageString = 
 `<h1>Keith Howard's Portfolio</h1>
-<div class="container">
+<div class="container2">
     <div id="profilePic" class="item1"><img src="githubpicture.jpeg"/></div>
     <div class="item2"><p class="normalText bio">Currently I am a project specialist for an electrical manufacturing company. Specializing in data center
         hardware. I have a bachelors degreed in Communications from Western Connecticut State University and an
